@@ -1,0 +1,21 @@
+meta {
+  name: my bids
+  type: http
+  seq: 10
+}
+
+get {
+  url: https://api.kitek-pg.ru/api/marketplace/bids/my
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTQ2MzYzOTEwODYsInVzZXJuYW1lIjoic2hpbmNodSIsImlhdCI6MTc5NDYzNjU0MCwiZXhwIjoxNzk0NzIyOTQwfQ.kjfR2yP6gygINbfDDIzmBl-i1LIr2WdcIuAQaH-0lB4
+}
+
+body:json {
+  {
+    "amount": 3333333333330000
+  }
+}
